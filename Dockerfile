@@ -1,7 +1,7 @@
 FROM ubuntu:15.04
 
-RUN sudo add-apt-repository ppa:webupd8team/java
-RUN sudo apt update && sudo apt install oracle-java8-installer
+RUN  add-apt-repository ppa:webupd8team/java
+RUN  apt update &&  apt install oracle-java8-installer
 
 
 
