@@ -19,6 +19,7 @@ node {
          script {
            dockerImage.inside("-itu root") {
            sh(script: "nosetests app-test.py --verbose")
+           }
          }
 
         app.inside {
