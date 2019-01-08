@@ -1,6 +1,5 @@
 FROM ubuntu:15.04
 MAINTAINER Ivan Krizsan, https://github.com/krizsan
-RUN apt-get update
 RUN apt-get upgrade -y 
 RUN   apt-get install -y  software-properties-common 
 RUN    add-apt-repository ppa:webupd8team/java -y 
