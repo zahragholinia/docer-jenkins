@@ -10,7 +10,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("C:\\Program Files (x86)\\Jenkins\\workspace\\aa\\Dockerfile")
+        app = docker.build("Dockerfile")
     }
 
     stage('Test image') {
