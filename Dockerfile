@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine  
-RUN java -jar aa.jar 
+RUN java -jar hello.jar 
 
 expose 18888
 
